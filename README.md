@@ -5,13 +5,8 @@
 -   `해당 교안 항목의 문제를` 기반으로 알고리즘 문제풀이를 진행합니다.
 -   ### 1차 챌린지 (8월 ~ 9월)
     -   교안 항목 : [JavaScript 알고리즘 100일 챌린지](https://www.youtube.com/watch?v=RMmOU2u-_as&list=PLkfUwwo13dlWZxOdbvMhkzhAowaiEjuGS)
--   ### 2차 챌린지 (9월 ~ 10월)
-    -   교안 항목 : [눈떠보니 코딩테스트 전날](https://www.inflearn.com/course/%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%84%EB%82%A0/dashboard)
--   ### 3차 챌린지 (10월~ )
-    -   교안 항목 : [JavaScript 알고리즘 베스트 10](https://www.inflearn.com/course/javascript-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B2%A0%EC%8A%A4%ED%8A%B8-10)
-
-<br></br>
-
+-    ### 2차 챌린지 (9월 ~ 10월)
+     -  프로그래머스 문제 풀이
 ## 🎉 Progress Record
 
 |      🦁      |    이하연     | 오규영    |    김정아    |   김소리    | 장수연    |      김하영              |        김창영                 |
