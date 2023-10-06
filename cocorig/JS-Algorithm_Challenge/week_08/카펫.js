@@ -1,5 +1,21 @@
-// 항상 만족하는 것 : brown/2 +2 === 가로길이 + 세로길이
-// brown/2 +2값을 구한 후, 가로세로 쌍 (sum-i, i)
-// 노란색 카펫을 모두 사용할 수 있는가?
-// 노란색 카펫의 가로세로 길이 = (전체 카펫의 가로 - 2, 전체 카펫의 세로 - 2)
-// 노란색 카펫의 가로길이 x 세로길이를 구하면 됨
+// x * y = brown + yellow
+// (x - 2) * (y - 2) = yellow
+
+function solution(brown, yellow) {
+  let n = brown +  yellow
+  // x,y가 나올 수 있는 조합 찾기
+  for(let i = 1; i <= Math.sqrt(n); i++) {
+    if(n %i  === 0){
+
+      const x = n / i;
+      const y = i;
+      // console.log(x , y);
+
+      if((x - 2) * (y - 2) === yellow){
+        return [x,y]
+      }
+    }
+  }
+}
+
+console.log(solution(8	,1));
