@@ -2,11 +2,16 @@
 
 ## ✨ 진행 방식
 
+  [💫 알고리즘 문제 풀이  링크](https://www.notion.so/8e6a9becf93a4386b8e73ec7498832dc)
 -   `해당 교안 항목의 문제를` 기반으로 알고리즘 문제풀이를 진행합니다.
+    
 -   ### 1차 챌린지 (8월 ~ 9월)
     -   교안 항목 : [JavaScript 알고리즘 100일 챌린지](https://www.youtube.com/watch?v=RMmOU2u-_as&list=PLkfUwwo13dlWZxOdbvMhkzhAowaiEjuGS)
 -    ### 2차 챌린지 (9월 ~ 10월)
      -  프로그래머스 문제 풀이
+-  ### 3차 챌린지 (11월 ~)
+     -  프로그래머스 문제 풀이
+   
 ## 🎉 Progress Record
 
 |      🦁      |    이하연     | 오규영    |    김정아    |   김소리    | 장수연    |      김하영              |        김창영                 |
