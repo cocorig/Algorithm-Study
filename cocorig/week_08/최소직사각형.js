@@ -1,10 +1,10 @@
 function solution(sizes) {
 
-  // 최대너비 * 최소 높이
+  //(너비길이 중 최대값 * 높이길이 중 최대값) , 너비길이 > 높이길이 -> 모든 명합을 수납할 수있는 가장 작은 지갑
   for(let i = 0; i < sizes.length; i++) {
     let w = sizes[i][0]; // 60, 30, 60 , 80
     let h = sizes[i][1]; // 50 , 70 , 30 , 40
- 
+  
     // 큰 값을 너비로 
     if(w < h){   // 만약 높이가 너비보다 크다면 높이를 너비로 옮겨줘야함
       // [w, h] = [h, w]
@@ -23,4 +23,4 @@ function solution(sizes) {
  
 }
 
-console.log(solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]));
+console.log(solution([[60, 50], [30, 70], [60, 30], [80, 40]]));

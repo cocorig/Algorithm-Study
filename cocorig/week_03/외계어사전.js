@@ -4,7 +4,8 @@ function solution(spell , dic){
  
   let ans = (dic.filter((v)=> { // "sod"
 
-    spell.every((item)=> v.includes(item))
+    spell.every((item)=> 
+    v.includes(item))
 
   })); // spell안의 원소가 dic원소 안에 있는지
   console.log(ans);

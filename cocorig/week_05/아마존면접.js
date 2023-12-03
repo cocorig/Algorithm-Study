@@ -9,7 +9,7 @@
 // 제약 조건에 따라 추가 저장 공간을 사용하지 않고 원래의 배열을 수정함.
 
 // 입력
-const arr = ['a1', 'a2', 'a3', 'b1', 'b2', 'b3'];
+const arr = ['a1', 'a2', 'a3','a4' , 'b1', 'b2', 'b3', 'b4'];
 
 
 function solution(arr) {
@@ -18,7 +18,9 @@ function solution(arr) {
   const n = arr.length / 2;  // 3
 
   for (let i = 0; i < n; i++) {
+    
     ans.push(arr[i], arr[i + n]);
+
   }
 
   return ans;
