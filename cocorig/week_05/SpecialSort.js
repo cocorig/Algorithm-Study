@@ -18,5 +18,5 @@ arr.forEach((v)=>{
     porNum.push(v);
   }
 })
-
+console.log(negNum ,  porNum);
 console.log(negNum.concat(porNum));

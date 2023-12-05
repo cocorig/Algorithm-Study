@@ -1,8 +1,9 @@
 // //  내 풀이
+
+
 function solution(arr)
 {
     const stack = [];
-
     for(let i = 0; i < arr.length; i++){
     // stack 배열에 원소 값을 넣어놓고 시작
     stack.push(arr[i]);
